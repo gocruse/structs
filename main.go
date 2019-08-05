@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gocruse/model"
+	"github.com/gocruse/structs/model"
 )
 
 
