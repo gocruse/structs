@@ -17,7 +17,8 @@ func main() {
 		age:   10, // this will throw error
 	}
 	fmt.Println(stdntSnow)
-
+	fmt.Println(stdntSnow.Introduce())
+	fmt.Println(stdntSnow.sing()) // will thwrow error
 	// this should be error too, because accessing the private struct
 	einstein := model.teacher{
 		Name: "Einstein",
